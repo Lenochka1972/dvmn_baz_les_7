@@ -4,8 +4,8 @@ import os
 import ptbot
 
 from dotenv import load_dotenv
-load_dotenv()
 
+LOAD_DOYEBV = load_dotenv()
 TG_TOKEN = os.getenv('CookEggs_TOKEN')
 TG_CHAT_ID = os.getenv('TG_ID')
 
